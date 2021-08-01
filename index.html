@@ -4,14 +4,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="with=device-with, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Chat</title>
-	<link rel="stylesheet" href="style.css">
+	<title>Splix</title>
+	<link rel="stylesheet" href="./css/style.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+	<script src="./javascript/index.js"></script>
 </head>
 <body>
 	<div class="wrapper">
 		<section class="form signup">
-			<header>Chat app hope so</header>
+			<header>Splix</header>
 			<form action="#">
 				<div class="error-txt">This is an error message just for you!</div>
 				<div class="name-details">
@@ -30,8 +32,8 @@
 				</div>
 				<div class="field input">
 						<label>Password</label>
-						<input type="text" placeholder="Enter your password">
-						<i class="fa fa-eye"></i>
+						<input id="passwordField" type="password" placeholder="Enter your password">
+						<i class="fa fa-eye" onclick="eyeToggle()"></i>
 				</div>
 				<div class="field image">
 						<label>Select picture</label>
